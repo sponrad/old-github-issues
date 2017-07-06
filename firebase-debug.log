@@ -1,0 +1,28 @@
+[debug] [2017-07-06T03:51:04.459Z] ----------------------------------------------------------------------
+[debug] [2017-07-06T03:51:04.462Z] Command:      /home/sponrad/.nvm/versions/node/v4.5.0/bin/node /home/sponrad/.nvm/versions/node/v4.5.0/bin/firebase serve
+[debug] [2017-07-06T03:51:04.463Z] CLI Version:  3.9.1
+[debug] [2017-07-06T03:51:04.463Z] Platform:     linux
+[debug] [2017-07-06T03:51:04.463Z] Node Version: v4.5.0
+[debug] [2017-07-06T03:51:04.463Z] Time:         Wed Jul 05 2017 20:51:04 GMT-0700 (PDT)
+[debug] [2017-07-06T03:51:04.463Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-06T03:51:04.472Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-06T03:51:04.472Z] > authorizing via signed-in user
+[debug] [2017-07-06T03:51:04.474Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/onlyissues  
+ Wed Jul 05 2017 20:51:04 GMT-0700 (PDT)
+[debug] [2017-07-06T03:51:06.176Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-06T03:51:06.181Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/onlyissues/tokens  
+ Wed Jul 05 2017 20:51:06 GMT-0700 (PDT)
+[debug] [2017-07-06T03:51:10.116Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/sponrad/sites/onlyissues'...
+[info] 
+[debug] [2017-07-06T03:51:10.119Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/onlyissues  
+ Wed Jul 05 2017 20:51:10 GMT-0700 (PDT)
+[debug] [2017-07-06T03:51:11.146Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-06T03:51:11.148Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/990747122782/clients/_:getWebAppConfig  
+ Wed Jul 05 2017 20:51:11 GMT-0700 (PDT)
+[debug] [2017-07-06T03:51:12.381Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
