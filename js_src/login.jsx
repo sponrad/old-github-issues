@@ -4,14 +4,14 @@ import {
     Link
 } from 'react-router-dom'
 
-class Hello extends React.Component {
+class Login extends React.Component {
     render() {
         return (
             <div>
-              <h1>Home page</h1>
-              <Link to="/login">Login</Link>
+              <h1>This is where login will happen</h1>
+              <Link to="/">Home</Link>
             </div>
         )
     }
 }
-export default Hello
+export default Login
