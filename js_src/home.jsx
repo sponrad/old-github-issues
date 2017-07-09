@@ -4,7 +4,7 @@ import {
     Link
 } from 'react-router-dom'
 
-class Hello extends React.Component {
+class Home extends React.Component {
     render() {
         return (
             <div>
@@ -14,4 +14,4 @@ class Hello extends React.Component {
         )
     }
 }
-export default Hello
+export default Home

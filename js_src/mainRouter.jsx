@@ -5,14 +5,18 @@ import {
     Route,
     Link
 } from 'react-router-dom'
-import Home from './hello.jsx';
+import Nav from './nav.jsx';
+import Home from './home.jsx';
 import Login from './login.jsx';
 
 const BasicExample = () => (
     <Router>
       <div>
-        <Route exact path="/" component={Home}/>
-        <Route path="/login" component={Login}/>
+        <Nav />
+        <div className="container">
+          <Route exact path="/" component={Home}/>
+          <Route path="/login" component={Login}/>
+        </div>
       </div>
     </Router>
 )
