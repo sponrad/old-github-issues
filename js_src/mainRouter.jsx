@@ -17,6 +17,7 @@ const OIApp = () => (
         <div className="container">
           <Route exact path="/" component={Home}/>
           <Route path="/login" component={Login}/>
+          <Route path="/dashboard" />
         </div>
       </div>
     </Router>

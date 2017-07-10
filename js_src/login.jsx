@@ -23,7 +23,7 @@ firebaseAuth().onAuthStateChanged((user) => {
                 console.error(error);
             }
             else {
-                console.log("Timestamp written");
+                // console.log("Timestamp written");
             }
         });
     }
