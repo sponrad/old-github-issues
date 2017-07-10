@@ -5,7 +5,7 @@ var BUILD_DIR = path.resolve(__dirname, 'public/static/js');
 
 module.exports = {
     entry: './js_src/main.js',
-    output: { path: BUILD_DIR, filename: 'bundle.js' },
+    output: { path: BUILD_DIR, filename: 'bundle.js', library: ["OIApp"] },
     module: {
         loaders: [
             {

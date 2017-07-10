@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {
     Link
 } from 'react-router-dom'
@@ -9,7 +8,8 @@ class Home extends React.Component {
         return (
             <div>
               <h1>Home page</h1>
-              <Link to="/login">Login</Link>
+              <p>There will be so much great intro content here it will be unreal</p>
+              <Link className="btn btn-primary" to="/login">Get Started</Link>
             </div>
         )
     }

@@ -5,11 +5,12 @@ import {
     Route,
     Link
 } from 'react-router-dom'
+import fbapp from './firebaseConfig.jsx';
 import Nav from './nav.jsx';
 import Home from './home.jsx';
 import Login from './login.jsx';
 
-const BasicExample = () => (
+const OIApp = () => (
     <Router>
       <div>
         <Nav />
@@ -20,6 +21,6 @@ const BasicExample = () => (
       </div>
     </Router>
 )
-export default BasicExample
+export default OIApp
 
-ReactDOM.render(<BasicExample />, document.getElementById('OIapp'));
+ReactDOM.render(<OIApp />, document.getElementById('OIApp'));
